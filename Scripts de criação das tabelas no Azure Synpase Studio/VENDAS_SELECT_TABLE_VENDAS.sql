@@ -1,0 +1,7 @@
+SELECT TOP (100) [cod_usuario]
+,[cod_produto]
+,[data_venda]
+,[quantidade]
+,[valor_compra]
+ FROM [dbo].[vendas_dataset]
+ ORDER BY [cod_usuario]

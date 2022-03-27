@@ -1,0 +1,5 @@
+SELECT TOP (100) [cod_produto]
+,[nome_produto]
+,[categoria_produto]
+,[preco]
+ FROM [dbo].[produtos_dataset]

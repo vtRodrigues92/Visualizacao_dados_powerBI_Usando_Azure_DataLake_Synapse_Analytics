@@ -1,0 +1,7 @@
+SELECT TOP (100) [cod_usuario]
+,[data_cadastro]
+,[faixa_etaria]
+,[cidade]
+,[estado]
+ FROM [dbo].[usuarios_dataset]
+ ORDER BY [cod_usuario]
